@@ -1,0 +1,175 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body
+{
+    background-color: rgb(143, 143, 252);
+}
+
+.navigation
+{
+    height: 150px;
+    background-color: rgb(22, 2, 109);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20vh;
+}
+
+
+.left
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15vw;
+    align-items: center;
+    font-size: 20px;
+}
+
+.left ul
+{
+    display: flex;
+}
+
+
+.left ul li
+{
+    list-style: none;
+}
+
+
+.left ul li a
+{
+    text-decoration: none;
+    margin-left: 140px;
+    font-size: 27px;
+    color:rgb(250, 248, 248);
+}
+
+
+.logo
+{
+    width:5vw;
+    height:6vh;
+    background-color:darkviolet;
+}
+
+
+.right
+{
+
+}
+
+
+.form-input
+{
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 3px;
+    border: 2px solid black;
+}
+
+
+.btn
+{
+    padding: 4px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+
+.footer
+{
+    height: 100px;
+    /*background-color: yellow;*/
+}
+
+
+.content
+{
+    height: 75vh;
+    background-color: rgb(79, 40, 252);;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    Justify-content: space-evenly;
+    color: rgb(233, 231, 230);
+    font-size: 22px;
+    text-align: center;
+}
+
+.h2
+{
+    color: rgb(233, 231, 230);
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+
+.grid-item
+{
+    max-width: 20vw;
+}
+
+
+.img
+{
+    width: 23vw;
+    border-radius: 11px;
+    box-shadow: 0px 15px 24px -7px black;
+    margin-top: 12px;
+    margin-bottom: 40px;
+    margin-left: -23px;
+}
+
+
+.main
+{
+    height: 200vh;
+    background-color: rgb(79, 40, 252);
+    color: white;
+}
+
+
+.hr
+{
+    background-image: linear-gradient(90deg, #fcfbfb, rgb(79, 40, 252));
+    height: 10px;
+}
+
+.h1
+{
+    width:80vw;
+    margin-top: 20vh;
+    padding: 15px;
+}
+
+
+.article
+{
+    display: flex;
+    align-items: center;
+    margin-top: 55px;
+    font-size: 22px;
+}
+
+
+.article a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.article-img
+{
+    width: 23vw;
+    border-radius: 11px;
+    box-shadow: 0px 15px 24px -7px black;
+    margin: 0px 40px;
+}

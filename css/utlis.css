@@ -1,0 +1,21 @@
+.maxWidth1
+{
+    max-width: 80vw;
+}
+
+.maxWidth2
+{
+    max-width: 60vw;
+}
+
+.m-auto
+{
+    margin: auto;
+}
+
+.vl {
+    background-image: linear-gradient(rgb(79, 40, 252), white, rgb(79, 40, 252));
+    margin-top: 30px;
+    height: 475px;
+    width: 2px
+  }

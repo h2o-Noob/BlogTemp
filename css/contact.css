@@ -1,0 +1,94 @@
+.contact-h1
+{
+    margin-left: 20px;
+    color: rgb(22, 2, 109);
+}
+
+
+.contact-hr
+{
+    background-image: linear-gradient(90deg, rgb(79, 40, 252), white);
+    height: 10px;
+    margin-top: 22px;
+}
+
+
+.Contact-content
+{
+    background-color: white;
+    height: 105vh;
+    padding-top: 20px;
+}
+
+
+.contact-form
+{
+    margin-left: 20px;
+}
+
+
+.form-box
+{
+    margin: 18px 0px;
+}
+
+
+.form-box input
+{
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid rgb(79, 40, 252);
+    border-radius: 15px;
+}
+
+
+.form-box textarea
+{
+    font-size: 30px;
+    padding: 10px;
+    border: 2px solid rgb(79, 40, 252);
+    border-radius: 15px;
+}
+
+
+.form-box button
+{
+    padding: 10px;
+    font-size: 30px;
+    background-color: white;
+    color: rgb(79, 40, 252);
+    border: 1px solid black;
+}
+
+
+.form-box button:hover
+{
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(79, 40, 252);
+    color: white;
+    box-shadow: black 4px 4px 13px -5px;
+    position: relative;
+    animation-name: three-d;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+}
+
+
+.form-box button:active
+{
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+@keyframes three-d
+{
+    0% {bottom: 0px;}
+
+    100%  {bottom: 2px;}
+
+}

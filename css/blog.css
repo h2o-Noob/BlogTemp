@@ -1,0 +1,49 @@
+.blog-main
+{
+height: 160vh;
+display: flex;
+flex-direction: column;
+}
+
+
+.blog-header
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.blog-heading
+{
+    margin-left: 1px;
+    margin-top: -275px;
+}
+
+
+.blog-h1
+{
+    margin-top: 20px;
+}
+
+
+.blog-hr
+{
+    background-image: linear-gradient(90deg,  rgb(79, 40, 252), white, rgb(79, 40, 252));
+    height: 2px;
+    width: 80vw;
+    margin-top: 1px;
+}
+
+
+.blog
+{
+    margin-top: -275px;
+}
+
+
+.blog-suggest
+{
+    height: 60vh;
+}
+
+
